@@ -1,0 +1,10 @@
+pt:
+  menu:
+    log_in: "Logar"
+    languages:
+      lang: "Mudar liguagem"
+      pt: "Portugues"
+      en: "Inglês"
+  static_pages:
+    home:
+      title: "Página Home"
