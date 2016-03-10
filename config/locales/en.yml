@@ -2,7 +2,7 @@ en:
   menu:
     log_in: "Log in"
     languages:
-      lang: "Change language"
+      lang: "Region"
       pt: "Portuguese"
       en: "English"
   static_pages:

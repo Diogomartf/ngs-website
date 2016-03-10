@@ -1,8 +1,8 @@
 pt:
   menu:
-    log_in: "Logar"
+    log_in: "Entrar"
     languages:
-      lang: "Mudar liguagem"
+      lang: "Região"
       pt: "Portugues"
       en: "Inglês"
   static_pages:
