@@ -80,6 +80,11 @@ h2 {
   text-decoration: none;
 }
 
+.nav .open > a:focus, .nav .open > a:active{
+    background-color: rgba(238, 238, 238, 0.15);
+  
+}
+
 #logo {
   float: left;
   margin-right: $s;
@@ -156,13 +161,14 @@ footer {
 .hero-btn{
   color: #fff;
   background-color: $dark-blue;
-  width: 135px;
+  width: 200px;
   height: 36px;
   font-weight: 600;
   margin: 0 auto;
-  top: 50%; /* IMPORTANT */
-  left: 50%; /* IMPORTANT */
+  top: 50%;
+  left: 50%; 
   display: block;
+  font-size: 16px;
    &:hover {
       background-color: $blue;
       color: $dirt-white;
@@ -171,5 +177,25 @@ footer {
 
 .call-to-action {
   width: 200px;
+}
 
+/* process */
+
+.process {
+  margin-top: 80px;
+}
+
+.bigicon {
+  margin-top: 40px;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .bigicon {
+   max-width: 100px;
+   left: 28%;
+  }
 }

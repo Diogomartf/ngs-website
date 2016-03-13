@@ -7,4 +7,7 @@ pt:
       en: "Inglês"
   static_pages:
     home:
-      title: "Página Home"
+      title1: "Nós esforçamo-nos"
+      title2: "para produzir a melhor"
+      title3: "malha"
+      call-to-action: "Trabalhe connosco"

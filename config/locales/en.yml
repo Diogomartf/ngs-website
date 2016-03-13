@@ -7,4 +7,7 @@ en:
       en: "English"
   static_pages:
     home:
-      title: "Home page"
+      title1: "We strive to make the"
+      title2: "most inovative"
+      title3: "knit"
+      call-to-action: "Work with us"
