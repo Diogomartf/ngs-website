@@ -57,7 +57,10 @@ h2 {
   margin-bottom: $m;
   text-align: center;
   font-weight: normal;
-  color: $light-gray;
+}
+
+ul {
+  list-style-type: none;
 }
 
   .bold {
@@ -243,7 +246,25 @@ h2 {
     padding: 16px;
   }
 
-/*   clients end  */
+/*   footer  */
+
+.footer {
+  background-color: $dirt-white;
+  color: $blue;
+}
+
+.footer-links {
+  padding-left: 0;
+  text-align: center;
+  line-height: 36px;
+}
+
+.footer-link {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6792a8;
+  text-decoration: none;
+}
 
 /* tablets and desktop*/
 @media (min-width: 768px) {
@@ -282,9 +303,7 @@ h2 {
     font-size: 18px;
   }
 
-
   /* clients */
-
   .clients-wrapper {
     width: 800px;
   }
@@ -292,12 +311,30 @@ h2 {
   .client-logo {
     padding-top: 24px;
   }
+
+  /* footer */
+
+  .footer-wrapper{
+    padding-right: 150px;
+    padding-left: 150px;
+  }
 }
+
+
 
 
 /* mobile smaller screens */
 @media (max-width: 332px) {
   .pro {
     padding: 50px 25px;
+  }
+
+  .clients {    
+    img {
+      width: 80px;
+    }
+  }
+  .clients-wrapper {
+    width: 280px;
   }
 }

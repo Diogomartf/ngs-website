@@ -1,12 +1,31 @@
 <footer class="footer">
-  <small>
-    Developed 
-    by <a href="http://www.diogomartf.github.com/">Diogo Ferreira</a>
-  </small>
-  <nav>
-    <ul>
-      <li><%= link_to "About",   '#' %></li>
-      <li><%= link_to "Contact", '#' %></li>
-    </ul>
-  </nav>
+  <div class="container">
+    <div class="row footer-wrapper">
+      <div class="col-md-4">
+        <h2>Company</h2>
+        <ul class="footer-links">
+          <li> <a class="footer-link" href="#">about</a></li>
+          <li> <a class="footer-link" href="#">Jobs</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Contacts</h2>
+        <ul class="footer-links">
+          <li> <a class="footer-link" href="#">about</a></li>
+          <li> <a class="footer-link" href="#">Jobs</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2> <%= t('menu.languages.lang') %></h2>
+         <ul class="footer-links">
+            <li>
+              <%= link_to t('menu.languages.en'), change_locale_path(:en) %>
+            </li>
+            <li>
+              <%= link_to t('menu.languages.pt'), change_locale_path(:pt) %>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
 </footer>
