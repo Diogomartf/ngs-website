@@ -170,6 +170,10 @@ h2 {
      left: 20%;
      top: 50%;
      position: relative;
+
+     img {
+      width: 180px;
+     }
     }
 
   .pro {
@@ -212,7 +216,34 @@ h2 {
     text-align: center;
   }
 
+  /*   clients   */
 
+  .clients {
+    background-color: $dirt-white;
+    color: $dark-blue;
+    padding-top: 12px;
+    
+    img {
+      width: 100px;
+    }
+  }
+  
+  .clients-wrapper {
+    width: 300px;
+    padding-top: 12px;
+    padding-bottom: 32px;
+  }
+
+  .cli-title {
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .client-logo {
+    padding: 16px;
+  }
+
+/*   clients end  */
 
 /* tablets and desktop*/
 @media (min-width: 768px) {
@@ -242,13 +273,24 @@ h2 {
     padding: 80px;
   }
 
-  /***/
+  /*     call section   */
 
   .call-one {
     font-size: 28px;
   }
   .call-two {
     font-size: 18px;
+  }
+
+
+  /* clients */
+
+  .clients-wrapper {
+    width: 800px;
+  }
+
+  .client-logo {
+    padding-top: 24px;
   }
 }
 
