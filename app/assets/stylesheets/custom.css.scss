@@ -60,6 +60,10 @@ h2 {
   color: $light-gray;
 }
 
+  .bold {
+   font-weight: 600;
+  }
+
 
 /* header */
 
@@ -189,7 +193,26 @@ h2 {
     background-color: #3D506F;
   }
 
-  
+  /* call section */
+
+  .call-section {
+    background-color: $light-orange;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .call-one {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .call-two {
+    font-size: 16px;
+    text-align: center;
+  }
+
+
 
 /* tablets and desktop*/
 @media (min-width: 768px) {
@@ -217,6 +240,15 @@ h2 {
 
   .pro {
     padding: 80px;
+  }
+
+  /***/
+
+  .call-one {
+    font-size: 28px;
+  }
+  .call-two {
+    font-size: 18px;
   }
 }
 
