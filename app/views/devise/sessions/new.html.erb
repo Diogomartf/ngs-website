@@ -5,5 +5,3 @@
     <%= f.button :submit, "Log in", class: 'btn btn-primary btn-block' %>
     <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
 <% end %>
-
-<%= render "devise/shared/links" %>
