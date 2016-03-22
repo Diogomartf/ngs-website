@@ -1,0 +1,24 @@
+<div class="map-wrapper">
+	<div id="map"></div>
+	<div class="map-text">
+		<h1>We're based in Barcelos, <br> <span class="orange">Portugal</span> </h1>
+		<div class="map-links">
+			<a class="map-link" href="tel:351910882305">+351910882305</a>
+			<br>
+			<a class="map-link" href="mailto:geral@ngs-malhas.pt">geral@ngs-malhas.pt</a>
+			</div>
+	</div>
+	 <div class="map-overlay"></div>
+</div>
+
+<script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 41.527381, lng: -8.661947},
+          zoom: 15
+        });
+      }
+    </script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>

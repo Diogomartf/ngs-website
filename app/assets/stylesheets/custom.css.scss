@@ -67,6 +67,10 @@ ul {
    font-weight: 600;
   }
 
+  .orange {
+      color: $light-orange;
+  }
+
 
 /* header */
 
@@ -184,10 +188,6 @@ ul {
     h1 {
       font-weight: 400;
     }
-
-    .orange {
-      color: $light-orange;
-    }
   }
 
   .pro1 {
@@ -244,6 +244,48 @@ ul {
 
   .client-logo {
     padding: 16px;
+  }
+
+  /*              Maps              */
+
+  #map {
+    width: 100%;
+    height: 400px;
+    background-color: #CCC;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.2)
+    );
+  }
+  .map-wrapper {
+    position: relative;
+  }
+  .map-text {
+    position: absolute; 
+    top: 20%;
+    left: 5%;
+    z-index: 99; 
+    color: white;
+  }
+  .map-overlay {
+    width  : 100%;
+    height : 400px;
+    background: $blue;
+    position: absolute;
+    opacity: 0.5;
+    top: 0px; 
+    left: 0px; 
+    z-index: 80;
+  }
+  
+  .map-link {
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .map-link:hover{
+    color: $dirt-white;
   }
 
 /*   footer  */
@@ -311,6 +353,15 @@ ul {
     padding-top: 24px;
   }
 
+  .map-link {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .map-text {
+    left: 20%;
+  }
+
   /* footer */
 
   .footer-wrapper{
@@ -327,6 +378,10 @@ ul {
 
   .pro {
     padding: 80px;
+  }
+
+  .map-text {
+    left: 35%;
   }
 }
 
@@ -345,5 +400,17 @@ ul {
   }
   .clients-wrapper {
     width: 280px;
+  }
+
+  .map-text {
+   h1 {
+    font-size: 36px;
+    line-height: 40px;
+   }
+  }
+  
+  .map-link {
+    font-size: 18px;
+    line-height: 36px;
   }
 }
