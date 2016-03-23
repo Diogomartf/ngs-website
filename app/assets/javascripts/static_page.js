@@ -11,6 +11,3 @@ $(".static_pages.home").ready(function() {
 	});
 
 });
-/*
-
-*/

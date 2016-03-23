@@ -251,38 +251,45 @@ ul {
 
   #map {
     width: 100%;
-    height: 400px;
+    height: 425px;
     background-color: #CCC;
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.2)
-    );
+    
   }
   .map-wrapper {
     position: relative;
   }
   .map-text {
+    font-weight: 400;
     position: absolute; 
-    top: 20%;
+    top: 15%;
     left: 5%;
     z-index: 99; 
     color: white;
   }
   .map-overlay {
     width  : 100%;
-    height : 400px;
+    height : 425px;
     background: $blue;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     top: 0px; 
     left: 0px; 
     z-index: 80;
+  }
+
+  .map-links {
+    margin-top: 48px; 
+    position: relative;
+    line-height: 36px;
   }
   
   .map-link {
     color: white;
     font-size: 24px;
     line-height: 40px;
+    position: absolute;
+    left: 20%;
+
   }
 
   .map-link:hover{
@@ -294,6 +301,12 @@ ul {
 .footer {
   background-color: $dirt-white;
   color: $blue;
+
+  h2 {
+    margin-top: 36px;
+    margin-bottom: 12px;  
+    font-size: 1.5em;
+  }
 }
 
 .footer-links {
@@ -311,7 +324,7 @@ ul {
 
 .navbarlogin {
   transition: background-color 0.6s, color 0.4s;
-  background-color: $blue;
+  background-color: rgba(57, 62, 70, 0.92);
 }
 
 
@@ -362,7 +375,7 @@ ul {
 
   .map-link {
     font-size: 24px;
-    line-height: 40px;
+    left: 22%;
   }
 
   .map-text {
@@ -372,8 +385,7 @@ ul {
   /* footer */
 
   .footer-wrapper{
-    padding-right: 150px;
-    padding-left: 150px;
+    padding: 20px 150px;
   }
 }
 
@@ -385,6 +397,14 @@ ul {
 
   .pro {
     padding: 80px;
+  }
+  
+  .map-links {
+    line-height: 48px;
+  }
+
+  .map-link {
+    left: 25%;
   }
 
   .map-text {
