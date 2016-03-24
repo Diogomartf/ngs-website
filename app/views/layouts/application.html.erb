@@ -16,7 +16,14 @@
  <% else %>
 	 <%= render 'layouts/header_login' %>
 <% end %>
-
+	
+	<% flash.each do |type, message| %>
+	  <div class="alert alert-info fade-in">
+	 	<button class="close" data-dismiss="alert">X</button>
+	 	<%= message %>
+	  </div>
+	<% end %>
+		
 	<%= yield %>
 	<%= render 'layouts/footer' %>
 </body>
