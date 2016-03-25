@@ -89,6 +89,10 @@ ul {
   color: white;
 }
 
+.navbar-nav {
+    margin: 0;
+} 
+
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
   color: $light-orange;
