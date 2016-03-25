@@ -1,20 +1,36 @@
+<% provide(:title, "Contact") %>
 <div class="container">
   <div class="row">
-    <div class="col-sm-12">
-      <h3>Send A message to Us</h3>
+    <div class="contact col-sm-12 col-md-5">
+      <h3>Send us a message</h3>
 
-      <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+      <%= simple_form_for @contact, :html => {:class => 'contact-form' } do |f| %>
         <%= f.input :name, :required => true %>
         <%= f.input :email, :required => true %>
-        <%= f.input :message, :as => :text, :required => true %>
+        <%= f.input :message, :as => :text, :required => true , :class=> "contact-message"%>
         <div class= "hidden">
           <%= f.input :nickname, :hint => 'Leave this field blank!' %>
         </div>
         <div>
           </br>
-          <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+          <%= f.button :submit, 'Send message', :class=> "btn-msg" %>
         </div>
       <% end %>
     </div>
+    <div class="maps col-sm-12 col-md-6 col-md-offset-1">
+    <h3>Localização</h3>
+      <div id="map"></div>
+    </div>
   </div>
 </div>
+<script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 41.527381, lng: -8.661947},
+          zoom: 15
+        });
+      }
+    </script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>

@@ -1,0 +1,50 @@
+@import 'colours';
+
+.contact {
+	padding-top: 25px;
+}
+
+.btn-msg {
+	float: right;
+	width: 150px;
+	background: $orange;
+	border: 0;
+	color: white;
+	transition: 0.3s;
+	&:hover {
+		background: $light-orange;
+		color: white;
+	}
+}
+
+.maps {
+	padding: 0;
+}
+
+.alert {
+  width: 280px;
+  margin: 20px;
+  border: 0;
+  background-color: #FFB678;
+  color:white;
+}
+
+@media (min-width: 768px) {
+	
+	.alert {
+ 	 width: 400px;
+	}
+
+	#contact_message {
+		height: 130px;
+	}
+
+	.maps {
+		padding: 0 15px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+}
