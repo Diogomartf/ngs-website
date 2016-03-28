@@ -4,7 +4,7 @@
 			<div class="col-sm-12">
 				<h1 class="call-one">Do you have a special knit in your mind?</h1>
 				<h3 class="call-two">We work with <span class="bold">100%</span> Ceda & Caxemira products</h3>
-				<a href="#" class="btn hero-btn"><%= t('static_pages.home.call-to-action')%></a>
+				<%= link_to t('static_pages.home.call-to-action'), contacts_path, :"data-no-turbolink" => true, class: "btn hero-btn"%>
 			</div>
 		</div>
 	</div>

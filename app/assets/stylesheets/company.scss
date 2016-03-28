@@ -1,0 +1,58 @@
+@import 'colours';
+
+.crop {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.crop img {
+    width: 100%;
+    margin: -75px 0 0 0;
+}
+
+.company-sections {
+	padding: 32px 20px;
+}
+
+.company-img {
+	padding: 0;
+}
+
+.company-text {
+	line-height: 28px;
+}
+
+.company-title {
+	margin-top: 0;
+}
+
+.static_pages.company .navbarlogin {
+	margin: 0;
+}
+
+.company-quality {
+	background-color: $light-orange;
+	color: white;
+}
+
+.company-fast {
+	background-color: $blue;
+	color: white;
+}
+
+@media (min-width: 768px) {
+	.crop {
+		height: 300px;
+	}
+
+	.company-sections {
+		padding: 48px 48px;
+	}
+}
+
+@media (min-width: 992px) {
+	.crop {
+		height: 350px;
+	}
+}

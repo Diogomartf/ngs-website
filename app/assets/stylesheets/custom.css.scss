@@ -3,6 +3,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
 @import "colours";
 @import "contact";
+@import "company";
+
 
 $font: 'Open Sans', sans-serif;
 
@@ -53,7 +55,7 @@ p {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 2em;
   letter-spacing: -1px;
   margin-bottom: $m;
   text-align: center;

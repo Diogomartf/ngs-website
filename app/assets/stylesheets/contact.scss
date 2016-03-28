@@ -30,6 +30,11 @@
   color:white;
 }
 
+
+	#contact_message {
+		height: 80px;
+	}
+
 @media (min-width: 768px) {
 	
 	.alert {
@@ -38,10 +43,6 @@
 
 	#contact_message {
 		height: 130px;
-	}
-
-	.maps {
-		padding: 0 15px;
 	}
 
 }

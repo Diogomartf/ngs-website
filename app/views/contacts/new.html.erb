@@ -18,7 +18,33 @@
       <% end %>
     </div>
     <div class="maps col-sm-12 col-md-6 col-md-offset-1">
-    <h3 class="text-center">Localização</h3>
+      <h3 class="text-center">Contactos</h3>
+      <address class="text-center">
+        <p>
+          Lugar de Mariz – S.Vicente <br>
+          4705-981 – S.Vicente <br>
+          Braga - Portugal
+        </p>
+      <p>
+        <span class="bold">Telefone:</span> + 351 253 705 940
+      </p>
+      <p>
+        <span class="bold">Email:</span> geral@ngs.pt
+      </p>
+      <h4 class="bold">Coordenadas</h4>
+      <p>
+        <span class="bold">Latitude:</span> 45.51795
+      </p>
+      <p>
+        <span class="bold">Longitude:</span> -9.87795
+      </p>
+      </address>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 maps">
       <div id="map"></div>
     </div>
   </div>
@@ -28,7 +54,8 @@
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
           center: {lat: 41.527381, lng: -8.661947},
-          zoom: 15
+          zoom: 15,
+          scrollwheel: false
         });
       }
     </script>
