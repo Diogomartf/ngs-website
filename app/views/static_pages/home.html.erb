@@ -2,11 +2,12 @@
 	<div class="home-hero-container">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-offset-3 col-md-6 col-sm-12">
-					<h1 class="hero-big-title"><%= t('static_pages.home.title1')%>
-						<br> <%= t('static_pages.home.title2')%>
-						<span class="hero-word"><%= t('static_pages.home.title3')%></span>
-					</h1>
+				<div class="col-md-offset-2 col-md-8 col-sm-12">
+					<div class="title-wrapper">
+						<h1 class="hero-big-title"><%= t('static_pages.home.title1')%></h1>
+						<h1 class="hero-big-title"><%= t('static_pages.home.title2')%></h1>
+						<h1 class="hero-big-title"><span class="hero-word"><%= t('static_pages.home.title3')%></span></h1>
+					</div>
 					<%= link_to t('static_pages.home.call-to-action'), contacts_path, :"data-no-turbolink" => true, class: "btn hero-btn"%>
 				</div>
 			</div>

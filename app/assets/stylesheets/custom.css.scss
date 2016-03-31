@@ -143,10 +143,15 @@ ul {
     background-color: #3c3431;
   }
 
+  .title-wrapper {
+    margin-top: 120px;
+    margin-bottom: 55px;
+  }
+
   .hero-big-title {
-    margin-top: $xxl * 2;
+    margin: 0;
     font-weight: 700;
-    font-size: $xl;
+    font-size: 42px;
     color: white;
     .hero-word {
       color: $orange;
@@ -340,8 +345,13 @@ ul {
 /* tablets and desktop*/
 @media (min-width: 768px) {
   
+  .title-wrapper {
+    margin-top: 160px;
+  }
+
   .hero-big-title {
-    margin-top: 216px;
+    margin: 0;
+    font-size: $xl;
   }
   
   /* process */
