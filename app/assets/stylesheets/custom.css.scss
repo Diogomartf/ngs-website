@@ -159,21 +159,63 @@ ul {
   }
 
   .hero-btn{
+    background-color: #d3d3d3;
+    border: none;
+    -webkit-border-radius: .4em;
+    border-radius: .4em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     color: #fff;
-    background-color: $dark-blue;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: .6em .8em .8em;
+    text-decoration: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    transition: .2s;
+    vertical-align: middle;
+    -webkit-box-shadow: inset 0 -.2em rgba(0,0,0,.3);
+    box-shadow: inset 0 -.2em rgba(0,0,0,.3);
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     width: 200px;
-    height: 36px;
-    font-weight: 600;
     margin: 0 auto;
-    margin-top: $l;
     top: 50%;
     left: 50%; 
     display: block;
-    font-size: 16px;
     
      &:hover {
         background-color: $blue;
         color: $dirt-white;
+    }
+  }
+
+  .btn-blue {
+    background-color: #3C4B63;
+    color: white;
+  }
+
+  .btn-orange {
+    background-color: $orange;
+    color: white;
+    &:hover {
+      background: $light-orange;
+      color: white;
     }
   }
 
@@ -255,6 +297,7 @@ ul {
   .cli-title {
     font-weight: 600;
     margin-bottom: 12px;
+    color: #2A3546;
   }
 
   .client-logo {
