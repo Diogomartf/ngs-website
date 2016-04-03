@@ -45,6 +45,13 @@
 	padding-top: 70px;
 }
 
+.carousel-indicators li {
+  border: 1px solid #424242;
+ }
+.carousel-indicators .active {
+	background-color:#424242;
+}
+
 @media (min-width: 768px) {
 	.crop {
 		height: 300px;
