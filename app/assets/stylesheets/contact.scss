@@ -1,7 +1,6 @@
 @import 'colours';
 
 .contact {
-	padding-top: 25px;
 	padding-bottom: 50px;
 }
 
@@ -23,8 +22,9 @@
 }
 
 .alert {
-  width: 280px;
+  width: 332px;
   margin: 20px;
+  margin-bottom: 0;
   border: 0;
   background-color: #FFB678;
   color:white;
@@ -38,7 +38,7 @@
 @media (min-width: 768px) {
 	
 	.alert {
- 	 width: 400px;
+ 	 width: 450px;
 	}
 
 	#contact_message {
@@ -47,6 +47,8 @@
 
 }
 
-@media (min-width: 992px) {
-
+@media (max-width: 320px) {
+	.alert {
+  	width: 280px;
+	}
 }

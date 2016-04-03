@@ -8,11 +8,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <%= link_to "NGS", root_path, class: "navbar-brand", id: "logo" %>
+          <%= link_to "NGS", root_path, class: "navbar-brand", id: "logo", :"data-no-turbolink" => true %>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
           <li><%= link_to "Home", root_path, class: 'navbar-link' %></li>
+          <li><%= link_to "About us", empresa_path, :"data-no-turbolink" => true, class: "navbar-link"%></li>
         </ul>
         </div>
       </div>  
