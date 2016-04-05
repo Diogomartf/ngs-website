@@ -84,6 +84,7 @@ ul {
   border-radius: 0;
   padding-top: 20px;
   padding-left: 24px;
+  transition: 0.5s;
   .icon-bar {
     background-color: white;
   }
@@ -204,10 +205,29 @@ ul {
     top: 50%;
     left: 50%; 
     display: block;
-    
      &:hover {
         background-color: grey;
         color: $dirt-white;
+    }
+  }
+
+  .hero-btn-mini{
+    background-color: $light-orange;
+    padding: 8px;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 0.95em;
+    width: 120px;
+    top: 0;
+    left: 0; 
+  }
+  
+
+  #btn {
+    padding: 8px;
+    &:hover {
+      background-color: $orange;
+      color: $dirt-white;
     }
   }
 
