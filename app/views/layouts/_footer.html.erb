@@ -19,10 +19,10 @@
         <h2> <%= t('menu.languages.lang') %></h2>
          <ul class="footer-links">
             <li>
-              <%= link_to t('menu.languages.en'), change_locale_path(:en) %>
+              <span class="footer-flag"><%= image_tag("en.png") %></span> <%= link_to t('menu.languages.en'), change_locale_path(:en), class:"footer-link region" %> 
             </li>
             <li>
-              <%= link_to t('menu.languages.pt'), change_locale_path(:pt) %>
+              <span class="footer-flag"><%= image_tag("pt.png") %></span> <%= link_to t('menu.languages.pt'), change_locale_path(:pt), class:"footer-link region" %>
             </li>
           </ul>
       </div>
