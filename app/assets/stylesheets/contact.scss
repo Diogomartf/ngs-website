@@ -4,6 +4,10 @@
 	padding-bottom: 50px;
 }
 
+address {
+	font-size: 16px;
+}
+
 .btn-msg {
 	float: right;
 	width: 150px;
@@ -39,12 +43,20 @@
 	
 	.alert {
  	 width: 450px;
+ 	 margin-left: 60px;
 	}
 
 	#contact_message {
 		height: 130px;
 	}
 
+}
+
+@media (min-width: 991px) {
+	
+	.alert {
+ 	 	margin-left: 100px;
+	}
 }
 
 @media (max-width: 320px) {
