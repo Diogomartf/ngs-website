@@ -33,7 +33,7 @@ textarea {
 
 .form-control:focus {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(132, 135, 138, 0.6);
-  border-color: transparent;
+  border-color: rgba(72, 77, 84, 0.43);
 }
 
 
@@ -426,6 +426,11 @@ ul {
   text-decoration: none;
 }
 
+.footer-link:hover {
+  color: #313435;
+  text-decoration: none;
+}
+
 .footer-flag {
   height: 12px;
   position: relative;
@@ -436,6 +441,31 @@ ul {
 
 .region {
   font-size: 14px;
+}
+
+.en {
+  margin-right: 25px;
+}
+
+.madeby {
+  background-color: #E2E2E2;
+  color: #828486;
+  padding-bottom: 5px;
+  font-size: 13px;
+  p {
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+  .madeby-link {
+    color: rgba(255, 118, 42, 0.89); 
+    &:hover {
+      color: rgb(251, 114, 38);; 
+      text-decoration: none;
+    }
+  }
+  .copyrights {
+    text-align: center;
+  }
 }
 
 .navbarlogin {
@@ -471,6 +501,7 @@ ul {
   .hero-big-title {
     margin: 0;
     font-size: $xl;
+    margin-top: 10px;
     .hero-word {
       display: inline;
     }
@@ -532,6 +563,8 @@ ul {
   .footer-wrapper{
     padding: 20px 150px;
   }
+
+
 }
 
 @media (min-width: 992px) {
@@ -561,9 +594,14 @@ ul {
     left: 35%;
   }
 
+  .madeby {
+    .copyrights {
+      text-align: left;
+      margin-left: 120px;
+    }
+  }
+
 }
-
-
 
 /* iphone 5 and lower */
 @media (max-width: 332px) {

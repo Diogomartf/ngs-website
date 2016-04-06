@@ -11,20 +11,30 @@
       <div class="col-md-4">
         <h2>Contacts</h2>
         <ul class="footer-links">
-          <li> <a class="footer-link" href="#">about</a></li>
-          <li> <a class="footer-link" href="#">Jobs</a></li>
+          <li><%= link_to "Message us", contacts_path, :"data-no-turbolink" => true, class: "footer-link"%></li>
+          <li><%= link_to "Map", contacts_path, :"data-no-turbolink" => true, class: "footer-link"%></li>
         </ul>
       </div>
       <div class="col-md-4">
         <h2> <%= t('menu.languages.lang') %></h2>
          <ul class="footer-links">
             <li>
-              <span class="footer-flag"><%= image_tag("en.png") %></span> <%= link_to t('menu.languages.en'), change_locale_path(:en), class:"footer-link region" %> 
+              <span class="footer-flag"><%= image_tag("pt.png") %></span> <%= link_to t('menu.languages.pt'), change_locale_path(:pt), class:"footer-link region",  :"data-no-turbolink" => true %>
             </li>
             <li>
-              <span class="footer-flag"><%= image_tag("pt.png") %></span> <%= link_to t('menu.languages.pt'), change_locale_path(:pt), class:"footer-link region" %>
+              <span class="footer-flag"><%= image_tag("en.png") %></span> <%= link_to t('menu.languages.en'), change_locale_path(:en), class:"footer-link region en",  :"data-no-turbolink" => true %> 
             </li>
           </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid madeby">
+    <div class="row">
+      <div class="col-md-8 col-sm-12">
+       <p class="copyrights"> &copy; All rights reserved <%= Time.now.year %> - NGS Malhas </p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <p class="text-center">Made by <a class="madeby-link" href="http://diogomartf.github.io/">Diogo Ferreira</a></p>
       </div>
     </div>
   </div>
