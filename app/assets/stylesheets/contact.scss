@@ -1,7 +1,25 @@
 @import 'colours';
 
+.hello {
+	height: 260px;
+	width: 100%;
+	background-color: rgba(57, 62, 70, 0.92);
+	color: white;
+	h2 {
+		font-size: 2.1em;
+	}
+}
+
+.contact-text {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  text-align: center;
+}
+
 .contact {
 	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 address {
@@ -27,8 +45,7 @@ address {
 
 .alert {
   width: 332px;
-  margin: 20px;
-  margin-bottom: 0;
+ 	margin: 25px 0 25px 0;
   border: 0;
   background-color: #FFB678;
   color:white;
@@ -42,25 +59,48 @@ address {
 @media (min-width: 768px) {
 	
 	.alert {
- 	 width: 450px;
- 	 margin-left: 60px;
+ 	 width: 680px;
 	}
 
 	#contact_message {
 		height: 130px;
 	}
 
+	.hello {
+		font-size: 32px;
+		h2 {
+			font-size: 1.8em;
+		}
+	}
+
+	.contact-text {
+	  font-size: 20px;
+	  line-height: 30px;
+	}
+
+	.contact {
+		padding: 50px 30px;
+	}
+
 }
 
 @media (min-width: 991px) {
 	
-	.alert {
- 	 	margin-left: 100px;
-	}
+	
 }
 
 @media (max-width: 320px) {
 	.alert {
   	width: 280px;
+	}
+
+	.hello {
+		height: 210px;
+		font-size: 1.1em;
+	}
+
+	.contact-text {
+	  font-size: 16px;
+	  line-height: 24px;
 	}
 }

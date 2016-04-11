@@ -9,8 +9,7 @@ class ContactsController < ApplicationController
     if @contact.deliver
       redirect_to @contact, notice: 'Your message was successfully send.'
     else
-      flash.now[:error] = 'Cannot send message.'
-      render :new
+      redirect_to @contact, notice: 'Cannot send message.'
     end
   end
 end
