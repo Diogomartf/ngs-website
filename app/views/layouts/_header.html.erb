@@ -12,6 +12,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Local", info_path, :"data-no-turbolink" => true, class: 'navbar-link' %></li>
             <li><%= link_to "About us", empresa_path, :"data-no-turbolink" => true, class: "navbar-link"%></li>
             <li><%= link_to "Contacts", contacts_path, :"data-no-turbolink" => true, class: "navbar-link" %></li>
             <li class="dropdown">
