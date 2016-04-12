@@ -483,6 +483,15 @@ ul {
   }
 }
 
+/****** info page**********/
+.maps {
+  padding: 0;
+}
+
+.info-adress {
+  padding: 50px 0;
+}
+
 
 /* tablets and desktop*/
 @media (min-width: 768px) {
@@ -577,6 +586,12 @@ ul {
   .footer-wrapper{
     padding: 20px 150px;
   }
+
+  /****** info page**********/
+
+.info-adress {
+  padding: 100px 0;
+}
 
 
 }

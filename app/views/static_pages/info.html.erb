@@ -1,8 +1,8 @@
 <% provide(:title, "Contact") %>
 <div class="container-fluid">
   <div class="row">
-    <div class="maps col-sm-12 col-md-6">
-      <h3 class="text-center">Contactos</h3>
+    <div class="col-sm-12 col-md-6 info-adress">
+      <h3 class="text-center">Address</h3>
       <address class="text-center">
         <p>
           Lugar de Mariz – S.Vicente <br>
@@ -36,21 +36,36 @@
         var map = new google.maps.Map(mapDiv, {
           center: {lat: 41.527381, lng: -8.661947},
           zoom: 15,
-          scrollwheel: false
+          scrollwheel: false,
+          draggable: false
         });
         var image = {
           url:"<%= image_url("local-ngs.png") %>",
-          size: new google.maps.Size(70, 90),
-          scaledSize: new google.maps.Size(40, 60),
-          anchor: new google.maps.Point(0, 0),
+          size: new google.maps.Size(50, 75),
+          scaledSize: new google.maps.Size(45, 70),
           origin: new google.maps.Point(0, 0),
+          anchor: new google.maps.Point(0, 0)
         };
         var marker = new google.maps.Marker({
-          position: {lat: 41.527381, lng: -8.661947},
+          position:  new google.maps.LatLng(41.527381,-8.661947),
           map: map,
           animation: google.maps.Animation.DROP,
-          title: 'Ngs malhas!',
+          title: 'Ngs malhas',
           icon: image
+        });
+
+        var contentString = '<div id="container">'+
+                        '<h5>Ngs - Malhas</h5>'+
+                        '<p>Estada nacional Braga - Esposende </p>' +
+                         '<p>Enfrente à BMW</p>' +
+                        '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString,
+            maxWidth: 250
+        });
+         google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
         });
       }
     </script>
