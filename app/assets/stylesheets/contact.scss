@@ -53,7 +53,21 @@ address {
 		height: 80px;
 	}
 
+	.nav-contact {
+		nav {
+			.in {
+				padding-bottom: 100%;
+			}	
+		}
+	}
+
 @media (min-width: 768px) {
+
+	.nav-contact {
+		.in {
+			padding-bottom: 25px;
+		}
+	}
 	
 	.alert {
  	 width: 680px;
@@ -82,7 +96,6 @@ address {
 }
 
 @media (min-width: 991px) {
-	
 	
 }
 
