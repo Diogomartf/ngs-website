@@ -4,6 +4,7 @@ gem 'bootstrap-sass',       '3.2.0.0'
 gem 'simple_form'
 gem 'rails-i18n', 				 '~> 4.0.0' 
 gem 'mail_form'
+gem 'geocoder'
 
 gem 'dotenv-rails', groups: [:development]
 
