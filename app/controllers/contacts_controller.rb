@@ -1,6 +1,7 @@
 class ContactsController < ApplicationController
   def new
     @contact = Contact.new
+    @test
   end
 
   def create
@@ -9,7 +10,7 @@ class ContactsController < ApplicationController
     if @contact.deliver
       redirect_to @contact, notice: 'Your message was successfully send.'
     else
-      redirect_to @contact, notice: 'Cannot send message.'
+      redirect_to @contact, alert: 'Cannot send message.'
     end
   end
 end

@@ -260,6 +260,14 @@ ul {
       background: $light-orange;
       color: white;
     }
+    &:focus {
+      background: $light-orange;
+      color: white;
+    }
+   &:active {
+      background: $light-orange;
+      color: white;
+    }
   }
 
   .call-to-action {

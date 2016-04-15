@@ -15,21 +15,7 @@
             <li><%= link_to "Local", info_path, :"data-no-turbolink" => true, class: 'navbar-link' %></li>
             <li><%= link_to "About us", empresa_path, :"data-no-turbolink" => true, class: "navbar-link"%></li>
             <li><%= link_to "Contacts", contacts_path, :"data-no-turbolink" => true, class: "navbar-link" %></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle navbar-link" data-toggle="dropdown" href="#">
-                <%= t('menu.languages.lang') %>
-                 <span class="caret"></span>
-              </a>
-            <ul class="dropdown-menu" role="menu">
-              <li>
-                <%= link_to t('menu.languages.en'), change_locale_path(:en), :"data-no-turbolink" => true %>
-              </li>
-              <li>
-                <%= link_to t('menu.languages.pt'), change_locale_path(:pt), :"data-no-turbolink" => true %>
-              </li>
-            </ul>
-          </li>
-        </ul>
+          </ul>
         </div>
       </div>  
     </nav>
