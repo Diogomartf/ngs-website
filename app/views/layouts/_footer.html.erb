@@ -2,16 +2,16 @@
   <div class="container">
     <div class="row footer-wrapper">
       <div class="col-md-4">
-        <h2>Company</h2>
+        <h2><%= t('footer.company') %></h2>
         <ul class="footer-links">
-          <li><%= link_to "About us", empresa_path, :"data-no-turbolink" => true, class: "footer-link"%></li>
+          <li><%= link_to t('menu.about'), empresa_path, :"data-no-turbolink" => true, class: "footer-link"%></li>
         </ul>
       </div>
       <div class="col-md-4">
-        <h2>Contacts</h2>
+        <h2><%= t('footer.contacts') %></h2>
         <ul class="footer-links">
-          <li><%= link_to "Contact us", contacts_path, :"data-no-turbolink" => true, class: "footer-link"%></li>
-          <li><%= link_to "Map", info_path, :"data-no-turbolink" => true, class: "footer-link"%></li>
+          <li><%= link_to t('call'), contacts_path, :"data-no-turbolink" => true, class: "footer-link"%></li>
+          <li><%= link_to t('footer.map'), info_path, :"data-no-turbolink" => true, class: "footer-link"%></li>
         </ul>
       </div>
       <div class="col-md-4">
@@ -30,10 +30,10 @@
   <div class="container-fluid madeby">
     <div class="row">
       <div class="col-md-8 col-sm-12">
-       <p class="copyrights"> &copy; All rights reserved <%= Time.now.year %> - NGS Malhas </p>
+       <p class="copyrights"> &copy; <%= t('footer.rights') %> <%= Time.now.year %> - NGS Malhas </p>
       </div>
       <div class="col-md-4 col-sm-12">
-        <p class="text-center">Made by <a class="madeby-link" href="http://diogomartf.github.io/">Diogo Ferreira</a></p>
+        <p class="text-center"><%= t('footer.madeby') %><a class="madeby-link" href="http://diogomartf.github.io/">Diogo Ferreira</a></p>
       </div>
     </div>
   </div>

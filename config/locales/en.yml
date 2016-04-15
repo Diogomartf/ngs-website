@@ -1,13 +1,57 @@
 en:
+  call: "Contact Us"
   menu:
-    log_in: "Log in"
+    local: "Local"
+    about: "About us"
     languages:
-      lang: "Region"
+      lang: "Language"
       pt: "Portuguese"
       en: "English"
+  contact-page:
+    title: "Contact Us"
+    text1: "Have questions about our products, hosting, support services, or anything else?"
+    text2: "Let us know and we'll get back to you."
+    send: "Send message"
   static_pages:
     home:
-      title1: "We strive to make the most"
-      title2: "innovative"
-      title3: "knit"
-      call-to-action: "Contact us"
+      hero-title1: "We strive to make the most"
+      hero-title2: "innovative"
+      hero-title3: "knit"
+      process:
+        title1: "Delivered Fast"
+        text1: "Donut danish tiramisu soufflé oat cake powder danish jelly beans liquorice. 
+                Lemon drops pie cookie oat cake ice cream halvah. 
+                Gingerbread biscuit. Marshmallow jelly beans candy canes cookie sugar."
+        title2: "Quality Assured"
+        text2: "Donut danish tiramisu soufflé oat cake powder danish jelly beans liquorice. 
+                Lemon drops pie cookie oat cake ice cream halvah. 
+                Gingerbread biscuit."
+      call-to-action: 
+        title: "Do you have a special knit in your mind?"
+        subtitle1: "We work with"
+        subtitle2: "Ceda & Caxemira products"
+      location: "Were based in"
+    company:
+      title1: "About Us"
+      text1: "NGS was founded in 1998 at Barcelos, the North Country Side of Portugal, in the heart of the Textile Cluster. Our main activity is the production of fabrics on circular knitting machines.
+              Very soon NGS established a new concept in the market by seeking the most differentiated exclusive knits and blends. Nowadays we became an important reference for those who follow innovation, exclusive quality and the finest fibers in the world.
+              Our core is to convert the finest yarns into outstanding knitted fabrics using the latest machinery and technology.
+              "
+      title2: "Quality"
+      text2: "Cake halvah cookie cake gummi bears sesame snaps pastry. Jelly-o lemon drops tart halvah cupcake sugar lollipop. Dessert tiramisu candy dessert. 
+Sugar toffee. Marzipan brownie tart. Pastry danish croissant. Tart tootsie roll fruitcake ice cream. Chocolate bar toffee pie tootsie roll. Icing danish jelly donut gingerbread dragée dessert tootsie roll chupa chups. Cupcake soufflé bear claw sweet. Ice cream dragée sweet roll dragée fruitcake gingerbread cupcake jelly cupcake."
+      title3: "Fast"
+      text3: "Cake halvah cookie cake gummi bears sesame snaps pastry. Jelly-o lemon drops tart halvah cupcake sugar lollipop. Dessert tiramisu candy dessert. 
+  Sugar toffee. Marzipan brownie tart. Pastry danish croissant. Tart tootsie roll fruitcake ice cream. Chocolate bar toffee pie tootsie roll. Icing danish jelly donut gingerbread dragée dessert tootsie roll chupa chups. Cupcake soufflé bear claw sweet. Ice cream dragée sweet roll dragée fruitcake gingerbread cupcake jelly cupcake."
+    info:
+      title: "Address"
+      tel: "Cellphone"
+      coord: "coordinates"
+      lat: "Lat"
+      long: "Long"
+  footer: 
+    company: "company"
+    contacts: "Contacts"
+    map: "Map"
+    rights: "All rights reserved"
+    madeby: "Made by "

@@ -1,13 +1,60 @@
 pt:
+  call: "Contacta-nos"
   menu:
-    log_in: "Entrar"
+    local: "Localidade"
+    about: "Sobre nós"
     languages:
-      lang: "Região"
+      lang: "Lingua"
       pt: "Portugues"
       en: "Inglês"
+  contact-page:
+    title: "Contacta-nos"
+    text1: "Quer fazer negócio connosco, tem alguma questão?"
+    text2: "Mande-nos uma mensagem e nós entraremos em contacto"
+    send: "Enviar mensagem"
   static_pages:
     home:
-      title1: "Trabalhamos" 
-      title2: "diariamente para inovar"
-      title3: "malha"
-      call-to-action: "Trabalhe connosco"
+      hero-title1: "Trabalhamos" 
+      hero-title2: "diariamente para inovar"
+      hero-title3: "malha"
+      process:
+        title1: "Entregas rápidas"
+        text1: "Donut danish tiramisu soufflé oat cake powder danish jelly beans liquorice. 
+                Lemon drops pie cookie oat cake ice cream halvah. 
+                Gingerbread biscuit. Marshmallow jelly beans candy canes cookie sugar."
+        title2: "Qualidade Assegurada"
+        text2: "Donut danish tiramisu soufflé oat cake powder danish jelly beans liquorice. 
+                Lemon drops pie cookie oat cake ice cream halvah. 
+                Gingerbread biscuit."
+      call-to-action: 
+        title: "Tens alguma malha especial na cabeça?"
+        subtitle1: "Nós Trabalhamos com produtos"
+        subtitle2: "Ceda & Caxemira "
+      location: "Estamos baseados em"
+    company:
+      title1: "Sobre nós"
+      text1: "NGS was founded in 1998 at Barcelos, the North Country Side of Portugal, in the heart of the Textile Cluster. Our main activity is the production of fabrics on circular knitting machines.
+              Very soon NGS established a new concept in the market by seeking the most differentiated exclusive knits and blends. Nowadays we became an important reference for those who follow innovation, exclusive quality and the finest fibers in the world.
+              Our core is to convert the finest yarns into outstanding knitted fabrics using the latest machinery and technology.
+              Through the years, we kept developing and improving abilities to convert utterly and passionately our Knits. We at NGS always seek perfection to reach flawless knitted fabrics.
+              Our key towards success is to control and to survey accurately each and every stage since the spinning to the finished fabrics. Every raw material we acquire is strictly controlled thru every department avoiding lags into the conversion process by anticipating any faults in materials.
+              Our portfolio has over 30 000 references of knitted circular fabric, proud of 15 years of passion, intuition and experienced souls. Every week we insert in our range around 15 new items and blends. In our range we provide a wide spectrum of high quality cotton fibers as SEA ISLAND COTTON, AMERICA, GIZA´S, SUPIMA´S, animal fibers as CASHMERE, ALPACA, BABY CAMEL, ANGORA, SILKS and the whole range of LENZING`S fibers .
+               We are surely the most updated fashion asset for our customers."
+      title2: "Qualidade"
+      text2: "Cake halvah cookie cake gummi bears sesame snaps pastry. Jelly-o lemon drops tart halvah cupcake sugar lollipop. Dessert tiramisu candy dessert. 
+Sugar toffee. Marzipan brownie tart. Pastry danish croissant. Tart tootsie roll fruitcake ice cream. Chocolate bar toffee pie tootsie roll. Icing danish jelly donut gingerbread dragée dessert tootsie roll chupa chups. Cupcake soufflé bear claw sweet. Ice cream dragée sweet roll dragée fruitcake gingerbread cupcake jelly cupcake."
+      title3: "Rapidez"
+      text3: "Cake halvah cookie cake gummi bears sesame snaps pastry. Jelly-o lemon drops tart halvah cupcake sugar lollipop. Dessert tiramisu candy dessert. 
+  Sugar toffee. Marzipan brownie tart. Pastry danish croissant. Tart tootsie roll fruitcake ice cream. Chocolate bar toffee pie tootsie roll. Icing danish jelly donut gingerbread dragée dessert tootsie roll chupa chups. Cupcake soufflé bear claw sweet. Ice cream dragée sweet roll dragée fruitcake gingerbread cupcake jelly cupcake."
+    info:
+      title: "Morada"
+      tel: "Telefone"
+      coord: "Coordenadas"
+      lat: "Latitude"
+      long: "Longitude"
+  footer: 
+    company: "Empresa"
+    contacts: "Contactos"
+    map: "Mapa"
+    rights: "Todos os direitos reservados"
+    madeby: "Desenvolvido por "

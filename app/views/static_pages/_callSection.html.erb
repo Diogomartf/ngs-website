@@ -2,9 +2,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="call-one">Do you have a special knit in your mind?</h1>
-				<h3 class="call-two">We work with <span class="bold">100%</span> Ceda & Caxemira products</h3>
-				<%= link_to t('static_pages.home.call-to-action'), contacts_path, :"data-no-turbolink" => true, class: "btn btn-blue hero-btn"%>
+				<h1 class="call-one"><%= t('static_pages.home.call-to-action.title') %></h1>
+				<h3 class="call-two">
+					<%= t('static_pages.home.call-to-action.subtitle1') %>
+					<span class="bold">100%</span>
+					<%= t('static_pages.home.call-to-action.subtitle2') %>
+				</h3>
+				<%= link_to t('call'), contacts_path, :"data-no-turbolink" => true, class: "btn btn-blue hero-btn"%>
 			</div>
 		</div>
 	</div>
