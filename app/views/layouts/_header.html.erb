@@ -1,5 +1,5 @@
 <header class="navbar navbar-fixed-top">
-    <nav class="nav navbar-nav" role="navigation">
+    <nav id="nav" class="nav navbar-nav" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" id="btn-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
@@ -20,3 +20,8 @@
       </div>  
     </nav>
 </header>
+<script type="text/javascript">
+    mixpanel.track_links("#nav a", "click nav link", {
+        "referrer": document.referrer
+    });
+</script>

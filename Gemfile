@@ -5,6 +5,7 @@ gem 'simple_form'
 gem 'rails-i18n', 				 '~> 4.0.0' 
 gem 'mail_form'
 gem 'geocoder'
+gem 'mixpanel-ruby'
 
 gem 'dotenv-rails', groups: [:development]
 

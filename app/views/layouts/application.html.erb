@@ -9,6 +9,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
+  <%= render 'layouts/mixpanel' %>
 </head>
 <body class="<%= controller_name %> <%= action_name %>">
  <% if current_page?(root_path) %>

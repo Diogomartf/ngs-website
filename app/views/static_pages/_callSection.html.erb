@@ -8,8 +8,13 @@
 					<span class="bold">100%</span>
 					<%= t('static_pages.home.call-to-action.subtitle2') %>
 				</h3>
-				<%= link_to t('call'), contacts_path, :"data-no-turbolink" => true, class: "btn btn-blue hero-btn"%>
+				<%= link_to t('call'), contacts_path, :"data-no-turbolink" => true, class: "btn btn-blue hero-btn", id:"action" %>
 			</div>
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+    mixpanel.track_links("#action", "click call-to-action", {
+        "referrer": document.referrer
+    });
+</script>

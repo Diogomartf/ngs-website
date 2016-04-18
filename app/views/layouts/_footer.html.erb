@@ -33,8 +33,13 @@
        <p class="copyrights"> &copy; <%= t('footer.rights') %> <%= Time.now.year %> - NGS Malhas </p>
       </div>
       <div class="col-md-4 col-sm-12">
-        <p class="text-center"><%= t('footer.madeby') %><a class="madeby-link" href="http://diogomartf.github.io/">Diogo Ferreira</a></p>
+        <p class="text-center"><%= t('footer.madeby') %><a class="madeby-link" id="good" href="http://diogomartf.github.io/">Diogo Ferreira</a></p>
       </div>
     </div>
   </div>
 </footer>
+<script type="text/javascript">
+    mixpanel.track_links("#good", "d-link", {
+        "referrer": document.referrer
+    });
+</script>
