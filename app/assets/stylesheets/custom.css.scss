@@ -105,7 +105,7 @@ ul {
 
 .navbar-link {
   color: white;
-  font-size: 17px;
+  font-size: 1.1em;
   font-weight: 400;
 }
 
@@ -517,13 +517,18 @@ ul {
   .hero-btn-mini{
     width: 120px;
   }
+
+  .hero-big-title {
+    font-size: 62px;
+    line-height: 100%;
+  }
   
   .navbar {
     padding-left: 15px;
   }
 
  .navbar-link {
-  font-size: 17px;
+  font-size: 1.4em
  }
 
  .navbar-collapse {
@@ -535,7 +540,7 @@ ul {
     padding-left: 0;
       .navbar-link {
         padding: 15px;
-        font-size: 16px;
+        font-size: 1.2em;
       }
   }
 
@@ -545,7 +550,8 @@ ul {
 
   .hero-big-title {
     margin: 0;
-    font-size: $xl;
+    font-size: 52px;
+    line-height: 100%;
     margin-top: 10px;
     .hero-word {
       display: inline;
@@ -642,6 +648,14 @@ ul {
   
   .home-hero-container {
     height: 680px;
+  }
+
+  .hero-big-title {
+    font-size: 72px;
+  }
+
+  .main-btn{
+    font-size: 1.2em;
   }
 
   /* clients */
