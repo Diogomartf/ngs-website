@@ -111,7 +111,7 @@ ul {
 
 .navbar-nav {
     margin: 0;
-} 
+}
 
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
@@ -121,7 +121,7 @@ ul {
 
 .nav .open > a:focus, .nav .open > a:active{
     background-color: rgba(238, 238, 238, 0.15);
-  
+
 }
 
 #logo {
@@ -145,20 +145,27 @@ ul {
   }
 }
 
-.home-hero-container {
-    padding: 0px;
-    margin: 0px;
-    height: 624px;
-     background-image: linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.2)
-    ),image-url("knit.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-x: 50%;
-    background-color: #3c3431;
+
+
+@media screen and (max-width: 720px) {
+    #vider-element{
+        display: none;
+    }
+    .home-hero-container {
+        padding: 0px;
+        margin: 0px;
+        height: 624px;
+         background-image: linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.2)
+        ),image-url("knit.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position-x: 50%;
+        background-color: #3c3431;
+      }
   }
 
   .title-wrapper {
@@ -216,7 +223,7 @@ ul {
     width: 200px;
     margin: 0 auto;
     top: 50%;
-    left: 50%; 
+    left: 50%;
     display: block;
      &:hover {
         background-color: grey;
@@ -232,9 +239,9 @@ ul {
     font-size: 0.95em;
     width: 180px;
     top: 0;
-    left: 0; 
+    left: 0;
   }
-  
+
 
   #btn {
     padding: 8px;
@@ -294,7 +301,7 @@ ul {
   .pro {
     padding: 50px;
     h1 {
-      
+
     }
   }
 
@@ -302,7 +309,7 @@ ul {
     color: $dark-blue;
     background-color: white;
   }
-  
+
   .pro2 {
     color: white;
     background-color: #3D506F;
@@ -329,7 +336,7 @@ ul {
   .call-two {
     font-size: 16px;
     text-align: center;
-    margin-bottom: 50px;  
+    margin-bottom: 50px;
   }
 
   /*   clients   */
@@ -338,12 +345,12 @@ ul {
     background-color: $dirt-white;
     color: $dark-blue;
     padding-top: 12px;
-    
+
     img {
       width: 100px;
     }
   }
-  
+
   .clients-wrapper {
     width: 300px;
     padding-top: 12px;
@@ -366,17 +373,17 @@ ul {
     width: 100%;
     height: 585px;
     background-color: #CCC;
-    
+
   }
   .map-wrapper {
     position: relative;
   }
   .map-text {
-    position: absolute; 
+    position: absolute;
     top: 15%;
     text-align: center;
     width: 100%;
-    z-index: 99; 
+    z-index: 99;
     color: white;
     h1 {
       font-weight:600;
@@ -388,16 +395,16 @@ ul {
     background: $blue;
     position: absolute;
     opacity: 0.6;
-    top: 0px; 
-    left: 0px; 
+    top: 0px;
+    left: 0px;
     z-index: 80;
   }
 
   .map-links {
-    margin-top: 48px; 
+    margin-top: 48px;
     line-height: 36px;
   }
-  
+
   .map-link {
     color: white;
     font-size: 26px;
@@ -416,7 +423,7 @@ ul {
 
   h2 {
     margin-top: 36px;
-    margin-bottom: 12px;  
+    margin-bottom: 12px;
     font-size: 1.5em;
   }
 }
@@ -465,9 +472,9 @@ ul {
     margin-bottom: 0;
   }
   .madeby-link {
-    color: rgba(255, 118, 42, 0.89); 
+    color: rgba(255, 118, 42, 0.89);
     &:hover {
-      color: rgb(251, 114, 38);; 
+      color: rgb(251, 114, 38);;
       text-decoration: none;
     }
   }
@@ -522,7 +529,7 @@ ul {
     font-size: 62px;
     line-height: 100%;
   }
-  
+
   .navbar {
     padding-left: 15px;
   }
@@ -557,7 +564,7 @@ ul {
       display: inline;
     }
   }
-  
+
   /* process */
   .icon-text {
     width: 450px;
@@ -604,7 +611,7 @@ ul {
     height: 625px;
   }
 
-  .map-overlay { 
+  .map-overlay {
     height : 625px;
   }
 
@@ -645,7 +652,7 @@ ul {
   .navbarlogin {
     padding-left: 32px;
   }
-  
+
   .home-hero-container {
     height: 680px;
   }
@@ -670,7 +677,7 @@ ul {
       line-height: 32px;
     }
   }
-  
+
   .map-links {
     line-height: 48px;
   }
@@ -688,13 +695,13 @@ ul {
 
 /* iphone 5 and lower */
 @media (max-width: 332px) {
-  
+
   .navbar {
     padding-left: 12px
   }
 
   #logo {
-    font-size: 2.1em; 
+    font-size: 2.1em;
   }
 
   .navbarlogin {
@@ -708,7 +715,7 @@ ul {
     padding: 50px 25px;
   }
 
-  .clients {    
+  .clients {
     img {
       width: 80px;
     }
@@ -723,7 +730,7 @@ ul {
     line-height: 40px;
    }
   }
-  
+
   .map-link {
     font-size: 22px;
     line-height: 36px;
@@ -732,12 +739,12 @@ ul {
   .hero-big-title {
     font-size: 35px;
   }
-  
+
   .home-hero-container {
     height: 624px;
   }
-  
+
   .title-wrapper{
-    padding-top: 10px;  
+    padding-top: 10px;
   }
 }

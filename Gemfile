@@ -2,10 +2,12 @@ source 'https://rubygems.org'
 
 gem 'bootstrap-sass',       '3.2.0.0'
 gem 'simple_form'
-gem 'rails-i18n', 				 '~> 4.0.0' 
+gem 'rails-i18n', 				 '~> 4.0.0'
 gem 'mail_form'
 gem 'geocoder'
 gem 'mixpanel-ruby'
+gem 'vider', github: 'wazery/vider'
+
 
 gem 'dotenv-rails', groups: [:development]
 
