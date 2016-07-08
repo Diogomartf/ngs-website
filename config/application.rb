@@ -21,6 +21,7 @@ module Ngs
     config.time_zone = 'Lisbon'
     config.i18n.default_locale = :en
     I18n.available_locales = [:en, :pt]
+    config.assets.paths << "#{Rails.root}/public/videos"
 
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
